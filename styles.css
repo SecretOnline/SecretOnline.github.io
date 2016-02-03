@@ -1,0 +1,12 @@
+.preview-list {}
+.preview-list li {
+  display: inline-block;
+  width: 21%;
+  margin: 1%;
+}
+.preview-list li img {
+  transition: transform 0.5s;
+}
+.preview-list li img:hover {
+  transform: scale(1.1);
+}
