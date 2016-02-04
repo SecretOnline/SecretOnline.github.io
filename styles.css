@@ -4,6 +4,9 @@
   width: 21%;
   margin: 1%;
 }
+.preview-list li span {
+  display: none;
+}
 .preview-list li img {
   transition: transform 0.5s;
 }
