@@ -1,15 +1,18 @@
-.preview-list {}
+.preview-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .preview-list li {
+  will-change: transform;
   display: inline-block;
-  width: 21%;
-  margin: 1%;
+  width: 23%;
+  transition: transform 0.5s;
+  padding: 0;
+}
+.preview-list li:hover {
+  transform: scale(1.1);
 }
 .preview-list li span {
   display: none;
-}
-.preview-list li img {
-  transition: transform 0.5s;
-}
-.preview-list li img:hover {
-  transform: scale(1.1);
 }
