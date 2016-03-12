@@ -16,3 +16,7 @@
 .preview-list li span {
   display: none;
 }
+.preview-list li img {
+  width: 100%;
+  height: 100%;
+}
